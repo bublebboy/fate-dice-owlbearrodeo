@@ -1,0 +1,12 @@
+{
+  "name": "Fate Dice",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "action": {
+    "title": "Roll",
+    "icon": "/obr/fate-dice/icon.svg",
+    "popover": "/obr/fate-dice",
+    "height": 600,
+    "width": 400
+  }
+}

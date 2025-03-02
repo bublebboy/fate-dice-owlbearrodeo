@@ -1,0 +1,33 @@
+.total {
+    font: bold 1.8em monospace;
+    color: #c2e9da;
+    display: flex;
+    justify-content: flex-start;
+    padding: .1em .5em;
+    gap: .7em;
+}
+
+.dieImage {
+    vertical-align: middle;
+}
+
+.total:last-child {
+    border-radius: .6em;
+    margin-top: .2em;
+    background-color: #33443d;
+    border: 2px solid #5d8a79;
+}
+  
+@media (prefers-color-scheme: light) {
+    .total {
+        color: #143252;
+    }
+    .total:last-child {
+      background-color: #e8faf2;
+      border-color: #a5e0ca;
+    }
+}
+
+.total div:last-child {
+    margin-left: auto;
+}
